@@ -1,0 +1,13 @@
+# build output
+branch-predictor/src/predict
+branch-predictor/src/predict_extra_credit
+*.o
+# python
+__pycache__/
+*.pyc
+# test scratch files
+tomasulo/tests/random_tmp*.txt
+# traces are large; get them from the CBP2 infrastructure
+traces/
+# OS / editor
+.DS_Store
